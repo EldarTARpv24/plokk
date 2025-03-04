@@ -23,9 +23,9 @@
 kokku = int(input("Скок? "))
 panni_maht = int(input("Скок на сковороде? ")) 
 aeg = 0 
-
 for a in range(0, kokku, panni_maht):
+    print(f"{a} сделаньо. ")
     if a > 0:
         kokku -= panni_maht
         aeg += 1
-        print(f"{aeg} времени. {kokku} осталось")
+        print(f"{aeg} времени. {kokku} осталось. ")
